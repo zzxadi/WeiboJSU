@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layout_title_bar"
+        layout="@layout/tilte_bar" />
+
+    <ListView
+        android:id="@+id/lv_weibos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/black"
+        android:divider="@drawable/line"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

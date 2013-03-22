@@ -1,0 +1,33 @@
+package weibo4andriod.examples;
+
+import weibo4andriod.Privacy;
+import weibo4andriod.Weibo;
+import weibo4andriod.WeiboException;
+/**
+ * 隐私设置接口示例
+ * @author Reilost
+ *
+ */
+public class PrivacyAPIExamples extends BaseExamples implements BaseInterface {
+
+	public void runAllAPI(Weibo wb) {
+		this.weibo=wb;
+		try {
+			Privacy privacy=weibo.getPrivacy();
+			System.out.println(privacy);
+			Privacy newPrivacy=new Privacy();
+			privacy.setAllUserCanComment(false);
+			System.out.println("====设置新的隐私设置====");
+			weibo.updatePrivacy(newPrivacy);
+			Thread.sleep(2000);
+			System.out.println(weibo.getPrivacy());;
+			System.out.println("====回复原先的隐私设置====");
+			weibo.updatePrivacy(privacy);
+		} catch (WeiboException e) {
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

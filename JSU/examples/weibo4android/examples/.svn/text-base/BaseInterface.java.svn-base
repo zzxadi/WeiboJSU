@@ -1,0 +1,11 @@
+package weibo4andriod.examples;
+
+import weibo4andriod.Weibo;
+
+/**
+ * @author Reilost
+ *
+ */
+public interface BaseInterface {
+    public void runAllAPI(Weibo wb);
+}

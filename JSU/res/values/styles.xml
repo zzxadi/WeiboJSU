@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/gray_gradient</item>
+    </style>
+
+    <style name="test" parent="android:Theme">
+        <item name="android:windowTitleSize">40dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="myProgressStyle" parent="android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@anim/myprogress</item>
+    </style>
+
+</resources>

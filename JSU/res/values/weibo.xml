@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="this_large">thisLarge</string>
+    <string name="access_token">accessToken</string>
+    <string name="access_secret">accessSecret</string>
+</resources>

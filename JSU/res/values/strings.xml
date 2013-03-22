@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JSU</string>
+    <string name="app">微博客户端</string>
+    <string name="text_count">0</string>
+    <string name="send">发送</string>
+    <string name="send_button">发送按钮</string>
+    <string name="send_image">发送图片</string>
+    <string name="hint_text">有什么新鲜事告诉大家?</string>
+    <string name="welcomeImg">欢迎界面</string>
+    <string name="loading">正在加载</string>    
+    <string name="fri">查看微博</string>
+    <string name="des"></string>
+    <string name="retweet_count">0</string>
+    <string name="comment_count">0</string>
+    <string name="from">来自未通过审核应用</string>
+</resources>
